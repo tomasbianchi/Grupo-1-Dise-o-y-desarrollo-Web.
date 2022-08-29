@@ -1,3 +1,10 @@
+/*Reseteo del Css*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
 .fotoIntegrantes{
     width: 20%;
     height: 15%;
@@ -82,7 +89,10 @@ html {
 
     .navegador{
     background-color: black;
+    width: auto;
+    height: 30px;
   }
+
 
     .navegador-ul{
     display: flex;
@@ -90,8 +100,10 @@ html {
     color: white;
   }
     .navegador-li{
+        display: flex;
         margin-left: 10px;
         margin-right: 10px;
         font-size: medium;
         font-family: Arial;
+        justify-content:flex-start;
     }
