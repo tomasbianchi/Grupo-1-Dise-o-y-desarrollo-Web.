@@ -118,6 +118,8 @@ html {
   margin-bottom: 20px;
 }
 
-nombreEmpresa{
-  font-family: ;
+.nombreEmpresa{
+  font-family: Cambria;
+  text-align: center;
+  font-size: 60px;
 }
