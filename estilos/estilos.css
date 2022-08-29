@@ -5,13 +5,15 @@
     box-sizing:border-box;
 }
 
-.fotoIntegrantes{
-    width: 20%;
-    height: 15%;
-    border-style:solid;
-    border-radius: 2px;
-    border-color: black;
+#cuerpo{
+    background: #fc00ff;
+   
+    background: -webkit-linear-gradient(to right, #00dbde, #fc00ff);
+   
+    background: linear-gradient(to right, #00dbde, #fc00ff);
+
 }
+
 
 .titulosPrincipales{
     font-family: 'Times New Roman';
@@ -19,33 +21,33 @@
     color: darkblue;
    text-align: center;
 }
+
 .titulosSecundarios{
-font-family: 'Times New Roman';
+font-family: cursive;
 font-size: x-large;
 color:gold;
-}
-
-.info-integrantes{
-    background-color: grey;
-}
-
-#cuerpo{
-    background: #fc00ff;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #00dbde, #fc00ff);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #00dbde, #fc00ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background-color: black;
+width: fit-content;
+margin-bottom: 10px;
+border-style: double;
+border-radius: 3px;
+border-color: #fc00ff;
 }
 
 
-
+.fotoIntegrantes{
+    width: 20%;
+    height: 15%;
+    border-style:solid;
+    border-radius: 2px;
+    border-color: black;
+}
 .numeros-celulares{
     text-align: left;
     font-size: x-large;
     font-family: cursive;
     color:maroon;
 }
-
-
-
 
 .mapa-google{
     text-align: center;
@@ -87,19 +89,19 @@ html {
     font-family: Arial;
   }
 
-    .navegador{
+.navegador{
     background-color: black;
     width: auto;
     height: 30px;
   }
 
 
-    .navegador-ul{
+.navegador-ul{
     display: flex;
     flex-direction: row;
     color: white;
   }
-    .navegador-li{
+.navegador-li{
         display: flex;
         margin-left: 10px;
         margin-right: 10px;
@@ -107,3 +109,15 @@ html {
         font-family: Arial;
         justify-content:flex-start;
     }
+
+.info-integrantes{
+  font-size: larger;
+  font-family:cursive;
+  background-color: #fc00ff;
+  width: fit-content;
+  margin-bottom: 20px;
+}
+
+nombreEmpresa{
+  font-family: ;
+}
