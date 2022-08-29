@@ -20,6 +20,8 @@
     font-size: xx-large;
     color: darkblue;
    text-align: center;
+   margin-top: 10px;
+   margin-bottom: 10px;
 }
 
 .titulosSecundarios{
@@ -28,7 +30,8 @@ font-size: x-large;
 color:gold;
 background-color: black;
 width: fit-content;
-margin-bottom: 10px;
+margin-bottom: 15px;
+margin-top: 15px;
 border-style: double;
 border-radius: 3px;
 border-color: #fc00ff;
@@ -47,6 +50,8 @@ border-color: #fc00ff;
     font-size: x-large;
     font-family: cursive;
     color:maroon;
+    background-color: #fc00ff;
+    width: fit-content;
 }
 
 .mapa-google{
@@ -122,4 +127,24 @@ html {
   font-family: Cambria;
   text-align: center;
   font-size: 60px;
+}
+
+.info-index{
+  font-family:cursive;
+  font-size: 20px;
+  margin-top: 20px;
+
+}
+
+.subtitulos{
+  font-size: 28px;
+  font-family: cursive;
+  margin-top: 20px;
+}
+
+.fotos-index{
+  width: 30%;
+  height: 40%;
+  margin: 40px;
+
 }
