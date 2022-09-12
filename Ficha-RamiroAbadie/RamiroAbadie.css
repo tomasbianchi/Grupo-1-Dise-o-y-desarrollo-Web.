@@ -1,0 +1,21 @@
+body {
+    background: #103783;
+}
+
+.Contenido {
+    justify-content: center;
+    text-align: center;
+    border: 3px solid black;
+    background: #9BAFD9;
+}
+
+
+
+.Foto_perfil {
+    border-radius: 50%;
+}
+
+h4 {
+    background: #ebf2fa;
+    font-weight: bold;
+}
