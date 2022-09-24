@@ -1,0 +1,18 @@
+body{ background: rgb(195, 187, 151);
+    background: linear-gradient(90deg, rgba(195, 187, 151) 0%, rgb(131, 131, 95) 61%, rgb(113, 110, 68) 100%);
+}
+
+
+.fotointegrante{
+    width: 20%;
+    height: 15%;
+    border-radius: 50%;
+    box-shadow: 8px 8px 10px 0;
+}
+
+p{
+    font-size: larger;
+    font-family:arial;
+    width: fit-content;
+    margin-bottom: 20px;
+ }
