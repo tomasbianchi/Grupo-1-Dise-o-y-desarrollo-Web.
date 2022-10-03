@@ -1,0 +1,159 @@
+                                                            /* Reseteo de Css*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------*/
+
+                                                            /*Estilos de Index*/
+
+body{
+  background-color: lightgrey;
+}
+
+.foto-cara{
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+    box-shadow: 8px 8px 10px 0;
+    margin-bottom: 20px; 
+}
+
+.nombreTitulos{
+    text-align: center;
+    height: fit-content;
+    text-align: center;
+    color: white;
+    font-family: Times;
+}
+
+.indexHeader{
+    background-color: grey;
+}
+
+.titulos-vitae{
+    font-size: xx-large;
+    font-family: Times;
+    margin: 15px;
+}
+
+.textos-index{
+font-size: large;
+font-family: 'Times New Roman';
+text-align: left;
+margin: 10px;
+}
+
+.div-fotos{
+  width: fit-content;
+  height: fit-content;
+}
+
+.titulos-secundarios{
+  margin: 5px;
+  color:forestgreen;
+}
+
+.textoFormacion{
+  margin: 3px;
+  color: grey;  
+}
+
+.section-index{
+  height:fit-content;
+  width: 100%;
+  background-color: lightblue;
+
+}
+
+.lista-programas{
+  margin: 20px;
+  font-size: larger;
+  font-family: Times;
+
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------*/
+
+                                                            /*Menu de las paginas*/
+
+.menu-paginas {
+    background-color: black;
+  }
+  
+  .lista-menu li {
+    display: inline-block;
+  }
+  
+  ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+  }
+
+.menu-paginas ul li a:hover {
+    background-color: #42B881;
+  }
+/*-----------------------------------------------------------------------------------------------------------------------------------------*/
+
+                                                            /*Estilos pagina Hobbies*/
+
+
+.section-hobbies{
+  text-align: center;
+  font-family:cursive;
+  font-size:xx-large;
+  margin: 30px;
+}
+
+.fotosHobbies{
+  width: 20%;
+  height: 20%;
+
+}
+
+.fotoHockey{
+  width: 35%;
+  height: 90%;
+}
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------*/
+
+                                                            /*Estilos pagina Contactos*/
+
+
+.logos{
+  width: 10%;
+  height: 10%;
+}
+
+.contactos-links{
+  text-align: center;
+  margin: 20px;
+  margin-bottom: 40px;
+}
+
+#section-contactos{
+color: black;
+}
+
+.titulo-principalContactos{
+  color: goldenrod;
+  font-size: xx-large;
+
+}
+
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------*/

@@ -39,11 +39,14 @@ border-color: #fc00ff;
 
 
 .fotoIntegrantes{
-    width: 20%;
-    height: 15%;
+    width: 45vh;
+    height: 40vh;
     border-style:solid;
     border-radius: 2px;
     border-color: black;
+    border-radius: 30%;
+    box-shadow: 8px 8px 10px 0;
+    margin: 10px;
 }
 .numeros-celulares{
     text-align: left;
@@ -68,8 +71,8 @@ border-color: #fc00ff;
 }
 
 .fotos-servicios{
-    width: 30%;
-    height: 30%;
+    width: 40%;
+    height: 40%;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -147,4 +150,43 @@ html {
   height: 40%;
   margin: 40px;
 
+}
+
+.integrantes-vinculos{
+  display: flex;
+  flex-direction: row;
+}
+
+.div-integrantes{
+  width: fit-content;
+  margin: 5px;
+}
+
+.boton-Fichas{
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+  font-family: 'Calibri';
+  background: #833ab4;
+  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+  font-family: Georgia;
+  margin-top: 10px;
+}
+
+.boton-Fichas :hover {
+  background-color: #00b712;
+  background-image: 
+  linear-gradient(315deg, #00b712 0%, #5aff15 74%);
+  width:fit-content;
+  height: fit-content;
+}
+
+.boton-texto{
+ font-family: Cambria;
+ font-size: large;
+ color: white;
 }
